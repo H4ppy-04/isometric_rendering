@@ -11,3 +11,19 @@ isometric rendering using pygame
  - Some UI stuff
  - Particle effects
  - Standard splash screens and some level of "animation"
+
+
+## Development
+
+Dependencies:
+
+```sh
+python -m venv .venv
+pip install -r requirements.txt
+```
+
+Running tests:
+
+```sh
+python -m pytest tests/ -v
+```
